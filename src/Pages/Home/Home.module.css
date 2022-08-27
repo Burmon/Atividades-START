@@ -1,0 +1,47 @@
+*{
+    background: #eeeeee;
+
+}
+.container, .box,
+.botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.titulo{
+    font-family: 'Libre Franklin', sans-serif;
+    color:#ff7b00;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ 
+
+    
+ 
+
+
+
+}
+
+.botao{
+    font-family: 'Libre Franklin', sans-serif;
+    color:#FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 45px;
+    background-color: #1162AD;
+    transition: all .4s;
+}
+
+.botao:hover{
+    transform: scale(1.1, 1.1);
+}
